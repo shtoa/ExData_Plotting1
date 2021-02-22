@@ -18,6 +18,7 @@ datetime <- pdata$Date + pdata$Time
 # Make PNG
 png("plot2.png",width = 480, height = 480, units = "px")
 
+
         # Specifying to create a 1x1 plot window
         par(mfrow = c(1,1))
         
